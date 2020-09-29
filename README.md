@@ -9,10 +9,13 @@ is identittyServer using dotnetcore3, EntityFrameworkCore and  SqlServer
 
 ## Apply migrations
 Apply the migrations to initialize the database. first time 
-in package Manager Console
+Run the following command in the Package Manager Console (PMC):
+
+1. PM> Update-Database
+2. Launch in IIS Express
 
 
 ## Scope of Improvment
-* need to seprate ClientApp and Identity server and Impliment CORS Policy
+* need to seprate ClientApp and Identity server then Impliment CORS Policy
 * configure its JwtBearerOptions
 * Create Dockrized containers
